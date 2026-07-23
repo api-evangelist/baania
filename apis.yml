@@ -1,7 +1,11 @@
 aid: baania
 name: Baania
-description: Baania is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Baania (Baania (Thailand) Co., Ltd.) is a Thai proptech and real-estate marketplace
+  that aggregates new and second-hand houses, condos, and townhomes for sale across Thailand.
+  The consumer portal provides property listings, project data, reviews, and price comparison to
+  help home buyers make decisions in one place, and connects them directly with property developers
+  and real-estate agents. Backed by 500 Global. Baania is a consumer-facing web portal; no public
+  developer program, API documentation, or machine-readable API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/baania/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +13,28 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.baania.com/static/img/baania-logo-sq.png
 tags:
 - Company
+- Real Estate
+- Proptech
+- Property
+- Marketplace
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/baania-domain-security.yml
 - type: Website
-  url: https://baania.com
+  url: https://www.baania.com
+- type: SignUp
+  url: https://www.baania.com/register
+- type: Login
+  url: https://www.baania.com/login
+- type: Support
+  url: https://www.baania.com/contact
+- type: TermsOfService
+  url: https://www.baania.com/terms
+- type: PrivacyPolicy
+  url: https://www.baania.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
