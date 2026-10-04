@@ -41,7 +41,7 @@ modified: '2026-07-18'
 image: https://www.baania.com/static/img/baania-logo-sq.png
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Property
 - Marketplace
@@ -53,6 +53,7 @@ tags_raw:
 - Property
 - Marketplace
 - Thailand
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
